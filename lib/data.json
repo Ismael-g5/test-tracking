@@ -1,0 +1,93 @@
+{
+    "resource": "/v1/order/cea",
+    "path": "/v1/order/cea",
+    "httpMethod": "POST",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Content-Type": "text/plain",
+      "Host": "integrations.staging.veloobrasil.com.br",
+      "Postman-Token": "814ecbdb-6abc-4f83-933c-e5ca6b972c12",
+      "User-Agent": "PostmanRuntime/7.28.4",
+      "X-Amzn-Trace-Id": "Root=1-61de3e27-2cc840984d529047378d7fb2",
+      "x-api-key": "FJplcUI8Vw7RHsp7GIsCk4qQ6G9i6Urs9izgm7k3",
+      "X-Forwarded-For": "189.126.67.117",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+      "Accept": [
+        "*/*"
+      ],
+      "Accept-Encoding": [
+        "gzip, deflate, br"
+      ],
+      "Content-Type": [
+        "text/plain"
+      ],
+      "Host": [
+        "integrations.staging.veloobrasil.com.br"
+      ],
+      "Postman-Token": [
+        "814ecbdb-6abc-4f83-933c-e5ca6b972c12"
+      ],
+      "User-Agent": [
+        "PostmanRuntime/7.28.4"
+      ],
+      "X-Amzn-Trace-Id": [
+        "Root=1-61de3e27-2cc840984d529047378d7fb2"
+      ],
+      "x-api-key": [
+        "FJplcUI8Vw7RHsp7GIsCk4qQ6G9i6Urs9izgm7k3"
+      ],
+      "X-Forwarded-For": [
+        "189.126.67.117"
+      ],
+      "X-Forwarded-Port": [
+        "443"
+      ],
+      "X-Forwarded-Proto": [
+        "https"
+      ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": {
+      "environment": "staging"
+    },
+    "requestContext": {
+      "resourceId": "5h2k5k",
+      "resourcePath": "/v1/order/cea",
+      "httpMethod": "POST",
+      "extendedRequestId": "Lz6mJEnMCYcFR-Q=",
+      "requestTime": "12/Jan/2022:02:34:15 +0000",
+      "path": "/v1/order/cea",
+      "accountId": "101563362961",
+      "protocol": "HTTP/1.1",
+      "stage": "staging",
+      "domainPrefix": "integrations",
+      "requestTimeEpoch": 1641954855139,
+      "requestId": "00388c95-0719-46dd-9bd4-e9416a25b830",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "cognitoIdentityId": null,
+        "apiKey": "FJplcUI8Vw7RHsp7GIsCk4qQ6G9i6Urs9izgm7k3",
+        "principalOrgId": null,
+        "cognitoAuthenticationType": null,
+        "userArn": null,
+        "apiKeyId": "pcrx5ryx01",
+        "userAgent": "PostmanRuntime/7.28.4",
+        "accountId": null,
+        "caller": null,
+        "sourceIp": "189.126.67.117",
+        "accessKey": null,
+        "cognitoAuthenticationProvider": null,
+        "user": null
+      },
+      "domainName": "integrations.staging.veloobrasil.com.br",
+      "apiId": "fszlh7lvbg"
+    },
+    "body": "{\"orderId\":\"45551073\",\"source\":{\"address\":{\"city\":\"Fortaleza\",\"state\":\"CE\",\"district\":\"Cocó\",\"number\":\"55\",\"street\":\"Rua Doutor Gilberto Studart\",\"postalCode\":\"60192105\",\"complement\":\"SALA 914T-1\",\"ibgeCode\":2304400}},\"destination\":{\"address\":{\"city\":\"Fortaleza\",\"state\":\"CE\",\"district\":\"Bom Jardim\",\"number\":\"590\",\"street\":\"Rua Urucutuba\",\"postalCode\":\"60543-315\",\"complement\":\"\",\"ibgeCode\":2304400},\"recipient\":{\"name\":\"Vitoria Feitosa Ferreira\",\"cpf\":\"02938412339\"},\"instruction\":\"\"}}",
+    "isBase64Encoded": false
+  }
